@@ -1,0 +1,17 @@
+num1 = input("insert first number")
+x = int(num1)
+op = input("insert operator")
+num2 = input("insert second number")
+y = int(num2)
+if op == "+":
+    a = x + y
+elif op == "-":
+    a = x - y
+elif op == "*":
+    a = x * y
+elif op == "/":
+    a = x / y
+
+print(str(x)+op+str(y)+"= "+str(a))
+
+
